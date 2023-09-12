@@ -202,3 +202,87 @@ section.datasheet {
 section.datasheet h2 {
     text-align: start;
 }
+
+section.about-product5 {
+    margin-top: 48px;
+}
+
+section.about-product5 .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section.about-product5 .wrapper h2 {
+    font-size: 24px;
+    color: #d7f6ff;
+}
+
+section.about-product5 .wrapper .wrapper-Paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    font-size: 14px;
+    width: 85%;
+    margin: auto;
+    color: #d7f6ff;
+}
+
+section.about-product5 img {
+    width: 200px;
+    margin: auto;
+}
+
+section.about-product4 {
+    height: 50vh;
+    width: 80%;
+    background-image: url(./img/background5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 48px;
+    box-shadow: rgba(25, 220, 255, 0.423) 0px 3px 10px;
+}
+
+section.about-product4 .wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section.about-product4 .wrapper h2 {
+    position: absolute;
+    left: 16px;
+    top: 48px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #058c81;
+    text-align: start;
+}
+
+section.about-product4 .wrapper img{
+    width: 140px;
+    margin: auto;
+    margin-top: 170px;
+}
+
+footer {
+    display: flex;
+    padding: 12px 0;
+}
+
+footer a {
+    text-decoration: none;
+    margin: auto;
+    color: #554cff;
+}
+
+footer a:hover {
+    color: blue;
+    transition: 0.4s;
+}
